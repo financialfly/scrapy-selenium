@@ -20,10 +20,6 @@ class SeleniumDownloadMiddleWare(object):
     
     @driver_path
         driver's path settings
-
-    注意：
-        缓存cookies需要浏览器User-Agent请求头版本与设置脚本(或Request)中的默认请求头保持一致
-        否则某些网站可能会对此做验证 导致cookies无效
     """
     WAIT_CONDITION_MAP = {
         'id': By.ID,
